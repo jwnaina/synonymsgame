@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Synonyms Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="icone.png">
+</head>
+<body>
+  <header> <h1>Synonyms Game</h1> </header>
+  <div id="game-container">
+    <div id="info">
+      <div id="livespoint"><img src="coracao.png" width="24px"> <span id="lives">3
+      </span></div>
+      <div>score: <span id="score">0</span></div>
+    </div>
+    <div id="word-display-box">
+    <div id="word-display">The word is...</div>
+  </div>
+    <div class="options" id="options-container">
+
+    </div>
+  </div>
+
+  <!-- GAME OVER -->
+  <div class="overlay hidden" id="game-over-overlay">
+    <div>
+      <p>Game Over!</p>
+      <button id="restart-btn">Restart Game</button>
+    </div>
+  </div>
+
+  <!-- ROUND GANHO -->
+  <div class="overlay hidden" id="round-win-overlay">
+    <div>
+      <p>You won!</p>
+      <button id="next-round-btn">Next Round</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
