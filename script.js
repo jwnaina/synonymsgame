@@ -95,7 +95,7 @@
 
         const clickedCorrect = document.querySelectorAll('.option.correct').length;
         if (clickedCorrect === synonyms.length) {
-          score += roundNumber;
+          score += 1;
           roundNumber++;
           scoreSpan.textContent = score;
           setTimeout(() => {
